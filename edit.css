@@ -100,7 +100,7 @@ body{
   letter-spacing: 2px;
 }
 .parallax-window {
-  min-height: 680px;
+  min-height: 750px;
   background: transparent;
   min-width: 600px;
 }
