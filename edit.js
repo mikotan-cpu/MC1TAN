@@ -317,7 +317,7 @@ form7.addEventListener('submit',(e) =>{
 })
 
  
- var messages=["I love dogs","I like bootstrap"];
+ var messages=["A dreamer","A believer, A visionary"];
 var rank=0;
 
 // Code for Chrome, Safari and Opera
