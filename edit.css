@@ -1,10 +1,5 @@
 /* Navbar*/
-.navbar-nav { 
-	margin-left: 1050px; 
-	position: fixed;
-	background-color: transparent;
-	color: white;
-} 
+
 html {
   scroll-behavior: smooth;
 }
