@@ -227,7 +227,6 @@
     <p id ="linkedin" class="info" style="display: inline;"></p> 
   </div>
   
-<!-- </div> -->
   
   
 
@@ -294,37 +293,8 @@
   const auth=firebase.auth()
   firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION)
 
-  /*var newObject={
-    name: "Lasallian Ambassadors",
-    position : "Operations and Logistics Team Head",
-    year_end: 2020,
-    year_start: 2019
-  }*/
- // db.collection("organizations").add(newObject).then(function(doc){
-   // console.log("Item added with an ID"+ doc.id);
-  //})
 
-  //db.collection("organizations").doc("IDXlRDsmW73DuGdfrUO0pl").delete().then(function(){
-    //console.log("Item deleted");
-  //}).catch(function(err){
-   // console.log("error in deleting" + err);
 
- // });
- var email = "courtney.ngo@dlsu.edu.ph";
- var password = "abcd1234";
-
- /*firebase.auth().signInWithEmailAndPassword(email,password).then(function(user){
-   console.log("user signed in");
-   var user = firebase.auth().currentUser;
-  
- }).catch(function(){
-   if(err.code== "auth/wrong-password"){
-     alert("wrong password");
-   }
-   else{
-     alert(err.message)
-   }
- })*/
   firebase.analytics();
 </script>
 <script src="edit.js"></script> 
