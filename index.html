@@ -196,12 +196,6 @@ background:transparent !important;
   // Initialize Firebase
   var defaultProject = firebase.initializeApp(firebaseConfig);
   var db = firebase.firestore()
-  db.collection("educations").get().then(function(snapshot){
-    snapshot.forEach(function(doc){
-      console.log(doc.data());
-
-    })
-  });
 
 
   firebase.analytics();
